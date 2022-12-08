@@ -1,0 +1,43 @@
+/******************************************
+/* MAIN STYLING
+/*******************************************/
+html {
+    font-family: 'Philosopher', sans-serif;
+}
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h3, h4{
+  text-align: center;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+main {
+    display: flex;
+}
+.intro {
+    padding: 3% 0 0 5%;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  list-style: none;
+}
+.bottom {
+    text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
